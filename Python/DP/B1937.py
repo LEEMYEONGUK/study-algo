@@ -4,6 +4,8 @@ sys.setrecursionlimit(10**6)
 
 dr = [-1, 1, 0, 0]
 dc = [0, 0, -1, 1]
+
+
 def dfs(r, c):
     # 이미 방문한 곳이라면 dp 값 리턴(visited 역할)
     if dp[r][c]:
